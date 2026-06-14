@@ -16,9 +16,11 @@ collections:
           - label: "Naslov O nama"
             name: "about_title"
             widget: "string"
+
           - label: "Tekst O nama"
             name: "about_text"
             widget: "text"
+
           - label: "Galerija"
             name: "gallery"
             widget: "list"
@@ -26,6 +28,7 @@ collections:
               - label: "Slika"
                 name: "image"
                 widget: "image"
+
               - label: "Opis slike"
                 name: "alt"
                 widget: "string"
