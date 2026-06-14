@@ -1,0 +1,18 @@
+{
+  "about_title": "DETAILING CENTAR ZEMUN",
+  "about_text": "Detailing Centar Zemun je mesto za profesionalnu negu, zaštitu i obnovu izgleda vašeg automobila. Svakom vozilu pristupamo detaljno, pažljivo i odgovorno, sa fokusom na čist enterijer, sjajan eksterijer i dugotrajnu zaštitu laka. Radimo detaljno pranje, dubinsko čišćenje, poliranje kompletnog vozila, keramičku zaštitu i farbanje volana. Naš cilj je da automobil izgleda uredno, očuvano i spremno da ponovo ostavi najbolji utisak.",
+  "gallery": [
+    {
+      "image": "/assets/galerija-1.jpg",
+      "alt": "Detailing rad 1"
+    },
+    {
+      "image": "/assets/galerija-2.jpg",
+      "alt": "Detailing rad 2"
+    },
+    {
+      "image": "/assets/galerija-3.jpg",
+      "alt": "Detailing rad 3"
+    }
+  ]
+}

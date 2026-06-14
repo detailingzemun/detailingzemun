@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detailing Centar Zemun</title>
+  <meta name="description" content="Detailing Centar Zemun - profesionalno pranje, dubinsko pranje, poliranje, keramička zaštita i farbanje volana.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="#pocetna"><img src="assets/logo.jpg" alt="Detailing Centar Zemun logo"></a>
+  <nav>
+    <a href="#pocetna" class="active">POČETNA</a>
+    <a href="#usluge">USLUGE</a>
+    <a href="#galerija">GALERIJA</a>
+    <a href="#zakazivanje">ZAKAZIVANJE</a>
+    <a href="#onama">O NAMA</a>
+    <a href="#kontakt">KONTAKT</a>
+  </nav>
+  <a class="phone" href="tel:+381652551111">065 255 1111</a>
+</header>
+
+<main>
+<section id="pocetna" class="hero">
+  <div class="hero-copy">
+    <h1>DETAILING<br>ZEMUN</h1>
+    <div class="shine-line"></div>
+    <div class="features">
+      <div><span>VRHUNSKI<br>PROIZVODI</span></div>
+      <div><span>PAŽNJA DO<br>DETALJA</span></div>
+      <div><span>POUZDANO<br>I NA VREME</span></div>
+      <div><span>PERFEKCIJA U<br>SVAKOM DETALJU</span></div>
+    </div>
+    <div class="actions">
+      <a class="btn blue" href="#zakazivanje">ZAKAŽI TERMIN</a>
+      <a class="btn outline" target="_blank" href="https://wa.me/381652551111?text=Zdravo,%20zelim%20da%20zakazem%20termin%20za%20detailing.">POZOVI / WHATSAPP</a>
+    </div>
+  </div>
+</section>
+
+<section id="usluge" class="services">
+  <p class="label">NAŠE USLUGE</p>
+  <h2>USLUGE KOJE NUDIMO</h2>
+  <div class="cards">
+    <article class="card">
+      <img class="service-icon" src="assets/icons/car-wash.png" alt="Detaljno pranje">
+      <h3>DETALJNO PRANJE<br>SPOLJA I IZNUTRA</h3>
+      <p>Temeljno pranje spolja i dubinsko čišćenje enterijera.</p>
+      <strong>50 €</strong>
+    </article>
+    <article class="card">
+      <img class="service-icon" src="assets/icons/seat.png" alt="Dubinsko pranje">
+      <h3>DUBINSKO PRANJE<br>ENTERIJERA</h3>
+      <p>Dubinsko pranje sedišta, tepiha, tapacira i svih površina.</p>
+      <strong>100 €</strong>
+    </article>
+    <article class="card">
+      <img class="service-icon" src="assets/icons/polisher.png" alt="Poliranje">
+      <h3>POLIRANJE<br>KOMPLETNOG VOZILA</h3>
+      <p>Uklanjanje sitnih ogrebotina i vraćanje sjaja laku.</p>
+      <strong>150 €</strong>
+    </article>
+    <article class="card">
+      <img class="service-icon" src="assets/icons/ceramic-car.png" alt="Keramička zaštita">
+      <h3>KERAMIČKA ZAŠTITA</h3>
+      <p>Dugotrajna zaštita laka keramičkim premazom.</p>
+      <strong>300 – 600 €</strong>
+    </article>
+    <article class="card">
+      <img class="service-icon" src="assets/icons/steering-wheel.png" alt="Farbanje volana">
+      <h3>FARBANJE VOLANA</h3>
+      <p>Obnavljanje i farbanje volana po vašem izboru.</p>
+      <strong>50 – 100 €</strong>
+    </article>
+  </div>
+</section>
+
+<section id="zakazivanje" class="booking">
+  <p class="label">ONLINE ZAKAZIVANJE</p>
+  <h2>ZAKAŽITE TERMIN</h2>
+  <p class="booking-copy">Popunite formu, izaberite uslugu i pošaljite zahtev za termin.</p>
+  <form name="zakazivanje" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/hvala.html">
+    <input type="hidden" name="form-name" value="zakazivanje" />
+    <p class="hidden"><label>Ne popunjavati: <input name="bot-field"></label></p>
+    <input name="ime" placeholder="Ime i prezime" required>
+    <input name="telefon" placeholder="Telefon" required>
+    <input name="email" type="email" placeholder="Email">
+    <input name="automobil" placeholder="Model automobila">
+    <select name="usluga" required>
+      <option value="">Izaberite uslugu</option>
+      <option>Detaljno pranje spolja i iznutra - 50€</option>
+      <option>Dubinsko pranje - 100€</option>
+      <option>Poliranje kompletnog vozila - 150€</option>
+      <option>Keramička zaštita - 300€ - 600€</option>
+      <option>Farbanje volana - 50€ - 100€</option>
+    </select>
+    <input name="datum" type="date">
+    <input name="vreme" type="time">
+    <textarea name="poruka" placeholder="Poruka / napomena"></textarea>
+    <button type="submit">POŠALJI ZAHTEV</button>
+  </form>
+  <div class="booking-links">
+    <a href="GOOGLE_CALENDAR_LINK_OVDE" target="_blank">GOOGLE CALENDAR</a>
+    <a href="https://wa.me/381652551111?text=Zdravo,%20zelim%20da%20zakazem%20termin%20za%20detailing." target="_blank">WHATSAPP</a>
+  </div>
+</section>
+
+<section id="galerija" class="gallery-section">
+  <p class="label">GALERIJA</p>
+  <h2>PRE I POSLE</h2>
+  <p>Slike možete menjati kroz CMS ili direktno u folderu assets.</p>
+  <div class="gallery" id="gallery">
+    <img src="assets/galerija-1.jpg" alt="Detailing primer 1">
+    <img src="assets/galerija-2.jpg" alt="Detailing primer 2">
+    <img src="assets/galerija-3.jpg" alt="Detailing primer 3">
+  </div>
+</section>
+
+<section id="onama" class="about">
+  <p class="label">O NAMA</p>
+  <h2 id="about-title">DETAILING CENTAR ZEMUN</h2>
+  <p id="about-text">Detailing Centar Zemun je mesto za profesionalnu negu, zaštitu i obnovu izgleda vašeg automobila. Svakom vozilu pristupamo detaljno, pažljivo i odgovorno, sa fokusom na čist enterijer, sjajan eksterijer i dugotrajnu zaštitu laka. Radimo detaljno pranje, dubinsko čišćenje, poliranje kompletnog vozila, keramičku zaštitu i farbanje volana. Naš cilj je da automobil izgleda uredno, očuvano i spremno da ponovo ostavi najbolji utisak.</p>
+</section>
+</main>
+
+<footer id="kontakt">
+  <div>Banatska 72, Zemun</div>
+  <a href="tel:+381652551111">065 255 1111</a>
+  <a href="https://www.instagram.com/detailingcentarzemun/" target="_blank">@detailingcentarzemun</a>
+  <a class="footer-book" href="#zakazivanje">ZAKAŽI TERMIN</a>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/381652551111?text=Zdravo,%20zelim%20da%20zakazem%20termin%20za%20detailing." target="_blank">W</a>
+<script src="script.js"></script>
+</body>
+</html>

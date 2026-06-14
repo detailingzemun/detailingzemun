@@ -1,0 +1,40 @@
+ZAŠTO PRETHODNE IKONICE NISU IZGLEDALE KAO DIZAJN:
+Zato što slika dizajna nije pravi sajt nego mockup. Ikonice u toj slici nisu bile odvojeni fajlovi.
+Sada su napravljene kao posebni SVG fajlovi u assets/icons i povezane su kao slike:
+- car-wash.svg
+- seat.svg
+- polisher.svg
+- ceramic-car.svg
+- steering-wheel.svg
+
+FORMA:
+U sajtu postoje i index.html forma i forms.html Netlify fallback forma.
+Posle deploy-a pošalji test kroz formu, pa idi u Netlify > Forms.
+Ako se pojavi zakazivanje, dodaj Email notification na email firme.
+
+CMS:
+CMS radi samo ako se sajt poveže preko GitHub-a, ne preko drag & drop-a.
+Koraci:
+1. Upload fajlove na GitHub repository.
+2. Netlify > Add new site > Import from Git.
+3. Publish directory: .
+4. Uključi Identity.
+5. Uključi Git Gateway.
+6. Otvori /admin.
+
+RUČNO UBACIVANJE SLIKA:
+assets folder:
+galerija-1.jpg
+galerija-2.jpg
+galerija-3.jpg
+
+Za dodatne slike menjaj content/site.json.
+
+
+NEON IKONICE:
+Usluge sada koriste iste neon PNG ikonice kao na dizajnu:
+- assets/icons/car-wash.png
+- assets/icons/seat.png
+- assets/icons/polisher.png
+- assets/icons/ceramic-car.png
+- assets/icons/steering-wheel.png
