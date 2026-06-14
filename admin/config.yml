@@ -4,7 +4,6 @@ backend:
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
-locale: "sr"
 
 collections:
   - name: "sajt"
@@ -14,11 +13,20 @@ collections:
         label: "Podešavanja sajta"
         name: "site"
         fields:
-          - { label: "Naslov O nama", name: "about_title", widget: "string" }
-          - { label: "Tekst O nama", name: "about_text", widget: "text" }
+          - label: "Naslov O nama"
+            name: "about_title"
+            widget: "string"
+          - label: "Tekst O nama"
+            name: "about_text"
+            widget: "text"
           - label: "Galerija"
             name: "gallery"
             widget: "list"
             fields:
-              - { label: "Slika", name: "image", widget: "image" }
-              - { label: "Opis slike", name: "alt", widget: "string", required: false }
+              - label: "Slika"
+                name: "image"
+                widget: "image"
+              - label: "Opis slike"
+                name: "alt"
+                widget: "string"
+                required: false
