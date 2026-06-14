@@ -6,6 +6,7 @@
   <title>Detailing Centar Zemun</title>
   <meta name="description" content="Detailing Centar Zemun - profesionalno pranje, dubinsko pranje, poliranje, keramička zaštita i farbanje volana.">
   <link rel="stylesheet" href="style.css" />
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
 <header class="topbar">
@@ -133,5 +134,16 @@
 
 <a class="whatsapp-float" href="https://wa.me/381652551111?text=Zdravo,%20zelim%20da%20zakazem%20termin%20za%20detailing." target="_blank">W</a>
 <script src="script.js"></script>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", function(user) {
+      if (!user && window.location.hash && window.location.hash.indexOf("invite_token") !== -1) {
+        window.location.href = "/admin/" + window.location.hash;
+      }
+    });
+  }
+</script>
+
 </body>
 </html>
