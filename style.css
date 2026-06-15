@@ -161,6 +161,24 @@
   }
 }
 
+.hero-subtitle {
+  max-width: 560px;
+  color: #dae2eb;
+  font-size: 22px;
+  line-height: 1.45;
+  margin: 0 0 30px;
+  text-shadow: 0 2px 10px #000;
+}
+
+@media(max-width:640px) {
+  .hero-subtitle {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+}
+=======
+
 .service-card-link {
   display: block;
   height: 100%;
@@ -170,3 +188,4 @@
   height: 100%;
   cursor: pointer;
 }
+>>>>>>> 704fb5e85a07fd70647491256112652e656a9d42
