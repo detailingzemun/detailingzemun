@@ -25,3 +25,67 @@
   stroke-linejoin: round;
   filter: drop-shadow(0 0 8px rgba(0,119,255,.8));
 }
+.location {
+  padding: 75px 7%;
+  text-align: center;
+  background: #080808;
+  border-top: 1px solid rgba(255,255,255,.14);
+}
+
+.location h2 {
+  font-size: 34px;
+  letter-spacing: 9px;
+  margin-bottom: 26px;
+}
+
+.location h2:after {
+  content: "";
+  width: 90px;
+  height: 2px;
+  background: #168cff;
+  display: block;
+  margin: 12px auto 0;
+}
+
+.location-copy {
+  color: #d8d8d8;
+  max-width: 800px;
+  margin: 0 auto 26px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.map-wrap {
+  max-width: 1100px;
+  height: 420px;
+  margin: 0 auto 24px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(22,140,255,.45);
+  box-shadow: 0 0 28px rgba(0,119,255,.18);
+}
+
+.map-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 24px;
+  border-radius: 6px;
+  font-weight: 900;
+  background: linear-gradient(180deg,#0077f3,#004a9a);
+}
+
+@media(max-width:640px) {
+  .location h2 {
+    font-size: 24px;
+    letter-spacing: 4px;
+  }
+
+  .map-wrap {
+    height: 340px;
+  }
+
+  .map-button {
+    width: 100%;
+  }
+}
