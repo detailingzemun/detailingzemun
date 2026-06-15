@@ -88,4 +88,23 @@
   .map-button {
     width: 100%;
   }
+
+}
+.estimate-link {
+  border: 1px solid #168cff;
+  padding: 13px 18px;
+  border-radius: 6px;
+  font-weight: 900;
+  text-align: center;
+  box-shadow: 0 0 18px rgba(0,119,255,.18);
+}
+
+.estimate-link:hover {
+  background: rgba(22,140,255,.12);
+}
+
+@media(max-width:640px) {
+  .estimate-link {
+    width: 100%;
+  }
 }
