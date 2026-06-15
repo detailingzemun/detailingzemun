@@ -160,3 +160,13 @@
     width: 100%;
   }
 }
+
+.service-card-link {
+  display: block;
+  height: 100%;
+}
+
+.service-card-link .card {
+  height: 100%;
+  cursor: pointer;
+}
