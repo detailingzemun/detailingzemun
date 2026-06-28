@@ -538,3 +538,22 @@
     width: 100%;
   }
 }
+.package-icon {
+  display: none;
+}
+
+.package-icon-img {
+  width: 92px;
+  height: 92px;
+  object-fit: contain;
+  margin: 0 auto 18px;
+  display: block;
+  border-radius: 22px;
+  filter: drop-shadow(0 0 20px rgba(0,119,255,.75));
+  transition: .25s ease;
+}
+
+.package-card:hover .package-icon-img {
+  transform: translateY(-3px) scale(1.04);
+  filter: drop-shadow(0 0 28px rgba(0,119,255,.95));
+}
