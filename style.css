@@ -177,7 +177,6 @@
     margin-bottom: 24px;
   }
 }
-=======
 
 .service-card-link {
   display: block;
@@ -188,7 +187,6 @@
   height: 100%;
   cursor: pointer;
 }
->>>>>>> 704fb5e85a07fd70647491256112652e656a9d42
 
 .premium-packages {
   background:
@@ -361,4 +359,12 @@
   .package-card {
     min-height: auto;
   }
+}
+.premium-packages .label,
+.premium-packages h2 {
+  text-align: center !important;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
