@@ -30,13 +30,25 @@ fetch('/content/site.json')
   })
   .catch(() => {});
 
-document.querySelectorAll(".service-card-link[data-service]").forEach(function(link) {
+document.querySelectorAll("[data-service]").forEach(function(link) {
   link.addEventListener("click", function() {
     var selectedService = link.getAttribute("data-service");
     var serviceSelect = document.querySelector('select[name="usluga"]');
+    var messageBox = document.querySelector('textarea[name="poruka"]');
 
-    if (serviceSelect) {
-      serviceSelect.value = selectedService;
-    }
+    setTimeout(function() {
+      if (serviceSelect && selectedService) {
+        serviceSelect.value = selectedService;
+      }
+
+      if (messageBox && selectedService) {
+        messageBox.value = "Želim da zakažem: " + selectedService;
+      }
+
+      var bookingSection = document.getElementById("zakazivanje");
+      if (bookingSection) {
+        bookingSection.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100);
   });
 });
